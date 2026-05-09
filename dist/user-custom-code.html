@@ -1,0 +1,307 @@
+<style id="catppuccin-mocha-user">
+  :root,
+  .light,
+  .dark {
+    --ctp-rosewater: #f5e0dc;
+    --ctp-flamingo: #f2cdcd;
+    --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7;
+    --ctp-red: #f38ba8;
+    --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5;
+    --ctp-sky: #89dceb;
+    --ctp-sapphire: #74c7ec;
+    --ctp-blue: #89b4fa;
+    --ctp-lavender: #b4befe;
+    --ctp-text: #cdd6f4;
+    --ctp-subtext1: #bac2de;
+    --ctp-subtext0: #a6adc8;
+    --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c;
+    --ctp-overlay0: #6c7086;
+    --ctp-surface2: #585b70;
+    --ctp-surface1: #45475a;
+    --ctp-surface0: #313244;
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111b;
+    color-scheme: dark !important;
+    --background: 240 21% 15% !important;
+    --foreground: 226 64% 88% !important;
+    --card: 240 21% 12% !important;
+    --card-foreground: 226 64% 88% !important;
+    --popover: 240 21% 12% !important;
+    --popover-foreground: 226 64% 88% !important;
+    --primary: 267 84% 81% !important;
+    --primary-foreground: 240 21% 12% !important;
+    --secondary: 237 16% 23% !important;
+    --secondary-foreground: 226 64% 88% !important;
+    --muted: 237 16% 23% !important;
+    --muted-foreground: 227 35% 80% !important;
+    --accent: 232 97% 85% !important;
+    --accent-foreground: 240 21% 12% !important;
+    --destructive: 343 81% 75% !important;
+    --destructive-foreground: 240 21% 12% !important;
+    --border: 234 13% 31% !important;
+    --input: 234 13% 31% !important;
+    --ring: 267 84% 81% !important;
+    --chart-1: 217 92% 76% !important;
+    --chart-2: 171 74% 73% !important;
+    --chart-3: 115 54% 76% !important;
+    --chart-4: 41 86% 83% !important;
+    --chart-5: 343 81% 75% !important;
+    --chart-6: 189 71% 73% !important;
+    --chart-7: 232 97% 85% !important;
+    --chart-8: 267 84% 81% !important;
+    --chart-9: 316 72% 86% !important;
+    --chart-10: 343 81% 75% !important;
+  }
+
+  html {
+    background: #1e1e2e !important;
+  }
+
+  body,
+  main {
+    background: #1e1e2e !important;
+    color: #cdd6f4 !important;
+  }
+
+  .bg-background,
+  [class*="bg-background"] {
+    background-color: transparent !important;
+  }
+
+  .bg-card,
+  [class*="bg-card"] {
+    background: #181825 !important;
+  }
+
+  .rounded-lg.border.bg-card {
+    border-color: #45475a !important;
+    box-shadow: none !important;
+    backdrop-filter: none;
+  }
+
+  .rounded-lg.border.bg-card:hover {
+    border-color: #cba6f7 !important;
+    background: #313244 !important;
+    transform: translateY(-1px);
+  }
+
+  button,
+  .rounded-full,
+  [class*="bg-white"],
+  [class*="dark:bg-black"] {
+    background: #181825 !important;
+    border-color: #45475a !important;
+    color: #cdd6f4 !important;
+  }
+
+  button:hover,
+  a:hover {
+    color: #cba6f7 !important;
+    border-color: #cba6f7 !important;
+  }
+
+  .text-muted-foreground,
+  [class*="text-muted-foreground"],
+  [class*="text-neutral-"],
+  [class*="opacity-50"] {
+    color: #a6adc8 !important;
+    opacity: 0.92 !important;
+  }
+
+  .bg-green-500,
+  [class*="bg-green-500"],
+  [class*="bg-emerald"] {
+    background-color: #a6e3a1 !important;
+  }
+
+  .bg-red-500,
+  [class*="bg-red-500"] {
+    background-color: #f38ba8 !important;
+  }
+
+  .bg-blue-500,
+  [class*="bg-blue-500"] {
+    background-color: #89b4fa !important;
+  }
+
+  .text-blue-800,
+  [class*="text-blue"] {
+    color: #89b4fa !important;
+  }
+
+  .text-purple-800,
+  [class*="text-purple"] {
+    color: #cba6f7 !important;
+  }
+
+  .bg-blue-100,
+  [class*="bg-blue-100"],
+  [class*="dark:bg-blue-900"] {
+    background-color: #313244 !important;
+    color: #89b4fa !important;
+  }
+
+  .bg-secondary,
+  [class*="bg-secondary"] {
+    background-color: #313244 !important;
+  }
+
+  [style*="width"] > .bg-secondary,
+  .h-\[3px\] {
+    background-color: #6c7086 !important;
+  }
+
+  .server-footer,
+  .server-footer-name {
+    color: #7f849c !important;
+  }
+
+  .loaded {
+    background: #1e1e2e !important;
+  }
+
+  /* Map view */
+  [class*="fill-neutral-200"],
+  [class*="dark:fill-neutral-800"] {
+    fill: #313244 !important;
+    stroke: #45475a !important;
+  }
+
+  [class*="fill-green-"],
+  [class*="dark:fill-green-"] {
+    fill: #a6e3a1 !important;
+  }
+
+  [class*="fill-green-"]:hover,
+  [class*="dark:hover:fill-green-"]:hover {
+    fill: #94e2d5 !important;
+  }
+
+  .server-info-tab > div {
+    background: #181825 !important;
+    border: 1px solid #45475a !important;
+  }
+
+  .server-info-tab [class*="absolute"][class*="inset-0"] {
+    background: #313244 !important;
+    box-shadow: none !important;
+    border-radius: 9999px !important;
+  }
+
+  .server-info-tab [class*="text-black"],
+  .server-info-tab [class*="dark:text-white"] {
+    color: #cdd6f4 !important;
+  }
+
+  .server-info-tab [class*="text-stone"],
+  .server-info-tab [class*="dark:text-stone"] {
+    color: #a6adc8 !important;
+  }
+
+  .server-info [class*="bg-muted"][class*="rounded-full"][class*="border"] {
+    background: #181825 !important;
+    border-color: #45475a !important;
+  }
+
+  .server-info [class*="bg-muted"][class*="rounded-full"][class*="border"]
+    [class*="absolute"][class*="inset-0"] {
+    background: #313244 !important;
+    border-color: #45475a !important;
+    box-shadow: none !important;
+  }
+
+  .server-info [class*="cursor-not-allowed"] {
+    color: #7f849c !important;
+    opacity: 0.62 !important;
+    filter: none !important;
+  }
+
+  .server-info [class*="text-foreground"] {
+    color: #cdd6f4 !important;
+  }
+
+  .server-info [class*="cursor-not-allowed"] {
+    background: transparent !important;
+    color: #7f849c !important;
+    opacity: 0.62 !important;
+    filter: none !important;
+  }
+
+  [class*="bg-stone-"],
+  [class*="dark:bg-stone-"] {
+    background-color: #181825 !important;
+  }
+
+  [class*="text-stone-"],
+  [class*="dark:text-stone-"] {
+    color: #a6adc8 !important;
+  }
+
+  .recharts-cartesian-axis-tick text,
+  .recharts-text,
+  .recharts-label {
+    fill: #a6adc8 !important;
+  }
+
+  .recharts-cartesian-grid line {
+    stroke: #45475a !important;
+  }
+
+  .recharts-tooltip-wrapper [class*="bg-stone"],
+  .recharts-tooltip-wrapper [class*="dark:bg-stone"] {
+    background: #181825 !important;
+    border-color: #45475a !important;
+  }
+
+  /* Service monitor cards */
+  [class*="text-emerald-"] {
+    color: #a6e3a1 !important;
+  }
+
+  [class*="bg-emerald-"] {
+    background-color: #a6e3a1 !important;
+  }
+
+  [class*="bg-muted/30"] {
+    background: #313244 !important;
+  }
+
+  [class*="from-red-"][class*="to-red-"] {
+    background-image: none !important;
+    background-color: #f38ba8 !important;
+    box-shadow: none !important;
+  }
+
+  [class*="from-green-"][class*="to-green-"] {
+    background-image: none !important;
+    background-color: #a6e3a1 !important;
+    box-shadow: none !important;
+  }
+
+  [class*="before:bg-white/10"]::before,
+  [class*="after:shadow"]::after {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  ::selection {
+    background: #cba6f7 !important;
+    color: #11111b !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #6c7086 !important;
+    border-color: #1e1e2e !important;
+  }
+</style>
+
+<script>
+  window.ForceTheme = "dark";
+</script>
