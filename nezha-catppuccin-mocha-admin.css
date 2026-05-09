@@ -1,0 +1,164 @@
+<style id="catppuccin-mocha-admin">
+  :root,
+  .light,
+  .dark {
+    --ctp-rosewater: #f5e0dc;
+    --ctp-flamingo: #f2cdcd;
+    --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7;
+    --ctp-red: #f38ba8;
+    --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5;
+    --ctp-sky: #89dceb;
+    --ctp-sapphire: #74c7ec;
+    --ctp-blue: #89b4fa;
+    --ctp-lavender: #b4befe;
+    --ctp-text: #cdd6f4;
+    --ctp-subtext1: #bac2de;
+    --ctp-subtext0: #a6adc8;
+    --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c;
+    --ctp-overlay0: #6c7086;
+    --ctp-surface2: #585b70;
+    --ctp-surface1: #45475a;
+    --ctp-surface0: #313244;
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111b;
+    color-scheme: dark !important;
+    --background: 240 21% 15% !important;
+    --foreground: 226 64% 88% !important;
+    --card: 240 21% 12% !important;
+    --card-foreground: 226 64% 88% !important;
+    --popover: 240 21% 12% !important;
+    --popover-foreground: 226 64% 88% !important;
+    --primary: 267 84% 81% !important;
+    --primary-foreground: 240 21% 12% !important;
+    --secondary: 237 16% 23% !important;
+    --secondary-foreground: 226 64% 88% !important;
+    --muted: 237 16% 23% !important;
+    --muted-foreground: 227 35% 80% !important;
+    --accent: 232 97% 85% !important;
+    --accent-foreground: 240 21% 12% !important;
+    --destructive: 343 81% 75% !important;
+    --destructive-foreground: 240 21% 12% !important;
+    --border: 234 13% 31% !important;
+    --input: 234 13% 31% !important;
+    --ring: 267 84% 81% !important;
+    --chart-1: 217 92% 76% !important;
+    --chart-2: 171 74% 73% !important;
+    --chart-3: 115 54% 76% !important;
+    --chart-4: 41 86% 83% !important;
+    --chart-5: 343 81% 75% !important;
+  }
+
+  html,
+  body,
+  #root,
+  main {
+    background: #1e1e2e !important;
+    color: #cdd6f4 !important;
+  }
+
+  body {
+    background: #1e1e2e !important;
+  }
+
+  header,
+  nav,
+  section,
+  footer {
+    border-color: #45475a !important;
+  }
+
+  .bg-muted,
+  .bg-background,
+  .bg-card,
+  [class*="bg-muted"],
+  [class*="bg-background"],
+  [class*="bg-card"] {
+    background-color: #181825 !important;
+  }
+
+  .border,
+  [class*="border-"],
+  input,
+  textarea,
+  button[role="combobox"] {
+    border-color: #45475a !important;
+  }
+
+  input,
+  textarea,
+  button[role="combobox"] {
+    background: #11111b !important;
+    color: #cdd6f4 !important;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #7f849c !important;
+  }
+
+  button,
+  a {
+    transition:
+      background-color 0.16s ease,
+      border-color 0.16s ease,
+      color 0.16s ease,
+      opacity 0.16s ease !important;
+  }
+
+  button:hover,
+  a:hover {
+    color: #cba6f7 !important;
+  }
+
+  .bg-primary,
+  [class*="bg-primary"] {
+    background-color: #cba6f7 !important;
+    color: #11111b !important;
+  }
+
+  .text-muted-foreground,
+  [class*="text-muted-foreground"],
+  [class*="text-foreground/50"],
+  [class*="text-foreground/60"] {
+    color: #a6adc8 !important;
+  }
+
+  [data-state="active"] {
+    background-color: #313244 !important;
+    color: #f5e0dc !important;
+    box-shadow: inset 0 0 0 1px #cba6f7 !important;
+  }
+
+  .rounded-lg.border.bg-card,
+  [class*="rounded-lg"][class*="bg-card"] {
+    box-shadow: none !important;
+  }
+
+  .bg-blue-100,
+  [class*="bg-blue-100"],
+  [class*="dark:bg-blue-900"] {
+    background-color: #313244 !important;
+    color: #89b4fa !important;
+  }
+
+  ::selection {
+    background: #cba6f7 !important;
+    color: #11111b !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #6c7086 !important;
+    border-color: #1e1e2e !important;
+  }
+</style>
+
+<script>
+  window.DisableAnimatedMan = true;
+</script>
