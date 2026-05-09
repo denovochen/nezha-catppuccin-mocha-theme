@@ -1,5 +1,7 @@
 # Nezha Catppuccin Mocha Theme
 
+**Language:** English | [简体中文](README.zh-CN.md)
+
 A Catppuccin Mocha custom-code theme for the Nezha monitoring panel.
 
 This theme targets Nezha v2 with the `nezha-dash` user frontend and the official admin dashboard. It uses the official Catppuccin Mocha palette and avoids decorative gradients, so the interface stays close to the original Mocha color system.
